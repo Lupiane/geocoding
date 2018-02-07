@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Geocoder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="container body-container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 offset-sm-3">
+          <div id="address">
+            <form action="">
+              <div class="form-group">
+                <input type="text" id="user-input">
+              </div>
+              <button type="submit" class="btn btn-primary">Geocode</button>
+            </form>
+          </div>
+          <div id="coordinates">
+
+          </div>
+          <div id="map" style="height: 300px"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="build/application.js"></script>
+  </body>
+</html>
